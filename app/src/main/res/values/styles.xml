@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="P2PKit" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- colors -->
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+
+        <!-- theme -->
+        <item name="actionBarStyle">@style/P2PKit.ActionBar</item>
+    </style>
+
+    <!-- ActionBar -->
+    <style name="P2PKit.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/primary</item>
+        <item name="contentInsetStart">6dp</item>
+        <item name="icon">@drawable/ic_home</item>
+        <item name="logo">@drawable/ic_home</item>
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+
+    <!-- Alert -->
+    <style name="P2PKitAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert"/>
+
+    <!-- Full Screen -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ec407a</item>
+        <item name="colorPrimaryDark">#c51162</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+</resources>

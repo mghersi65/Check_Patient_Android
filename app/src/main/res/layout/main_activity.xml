@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_with_backendless"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#455b72"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Patient Check"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:stretchColumns="*"
+            android:shrinkColumns="*">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="4dp">
+
+                <EditText
+                    android:id="@+id/identityField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/login_prompt"
+                    android:textColorHint="@color/grey"
+                    android:textColor="@color/text_dark"
+                    android:background="@color/white"
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center">
+
+
+                <EditText
+                    android:id="@+id/passwordField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@color/white"
+                    android:hint="@string/password_prompt"
+                    android:textColorHint="@color/grey"
+                    android:textColor="@color/text_dark"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp" />
+
+
+            </TableRow>
+        </TableLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+
+            <Button
+                android:id="@+id/bkndlsLoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/verde"
+                android:textColor="@color/white"
+                android:text="@string/btn_LoginBackendless"
+                />
+
+            <Button
+                android:id="@+id/bkndlsRegisterButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_RegisterBackendless"
+                android:background="@color/naranja"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/bkndlsRecuperarButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_Recuperar"
+                android:background="@color/celeste"
+                android:textColor="@color/white"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

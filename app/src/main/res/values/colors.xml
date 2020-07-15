@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgrounds">#455b72</color>
+    <color name="botonesVerdes">#6cc170</color>
+    <color name="accent">#455b72</color>
+    <color name="primary">#455b72</color>
+    <color name="primary_dark">#455b72</color>
+    <color name="btn_disable">#82A2C3</color>
+    <color name="text_dark">#455b72</color>
+    <color name="naranja">#ff9500</color>
+    <color name="celeste">#5ac8fa</color>
+    <color name="verde">#6cc170</color>
+
+
+    <color name="viejoaccent">#e047cf</color>
+    <color name="viejoprimary">#e047cf</color>
+    <color name="viejoprimary_dark">#b339a4</color>
+    <color name="background">#fdfdfd</color>
+    <color name="background_grey">#f6f6f6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="graph_node">#48E0A6</color>
+    <color name="graph_edge">#eaebef</color>
+    <color name="graph_active">#b9babd</color>
+    <color name="grey">#b9babd</color>
+</resources>

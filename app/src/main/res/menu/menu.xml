@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_more"
+        app:showAsAction="never">
+
+        <item
+            android:id="@+id/action_enablekit"
+            android:title="Enable/Disable p2pkit"/>
+
+        <item
+            android:id="@+id/action_console"
+            android:title="@string/console"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "441518877885",
+    "firebase_url": "https://check-patient.firebaseio.com",
+    "project_id": "check-patient",
+    "storage_bucket": "check-patient.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441518877885:android:32686f08d0f70b5d8b1bd4",
+        "android_client_info": {
+          "package_name": "com.isolutions.checkpatient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441518877885-rik9tq3efj82ad7l461p0ae4oqffcvt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXMbu-L-9UX8N08kmflu7F8-z0kaOKFF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441518877885-rik9tq3efj82ad7l461p0ae4oqffcvt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

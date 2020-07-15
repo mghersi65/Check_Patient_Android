@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Patient Check</string>
+    <string name="console">Console</string>
+    <string name="console_kit">Enable\np2pkit</string>
+    <string name="console_p2p">P2P\nDiscovery</string>
+    <string name="console_geo">GEO\nDiscovery</string>
+    <string name="choose_color">Choose your color</string>
+    <string name="node_me">Yo</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancelar</string>
+    <string name="grabando">Notificaciones...</string>
+    <string name="clear">Borrar</string>
+    <string name="p2pkit_not_enabled">App no disponible.</string>
+    <string name="p2pkit_discovery_info_update_failed">Error! No se puede cambiar el color por 60 seg.</string>
+    <string name="p2pkit_state_no_location_permission">Sistema suspendido. La aplicación requiere ubicación.</string>
+    <string name="p2pkit_state_offline">Conexión de server no disponible. Verifique la conectividad a internet.</string>
+    <string name="p2pkit_state_suspended">Sistema suspendido. Verifique la conectividad Bluetooth &amp; WiFi.</string>
+
+    <!-- New -->
+    <string name="btn_LoginBackendless">Ingresar</string>
+    <string name="btn_RegisterBackendless">Registarse</string>
+    <string name="btn_EditBackendless">Editar su registro</string>
+    <string name="btn_LogoutBackendless">Logout</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="btn_LoginFacebook">Login in Facebook</string>
+    <string name="btn_LoginGooglePlus">Login in GooglePlus</string>
+    <string name="btn_LoginTwitter">Login in Twitter</string>
+
+    <string name="textView_BackendlessUserInfo">Bienvenido a Patient Check</string>
+    <string name="editText_BackendlessUserInfo">Registrado v3.3</string>
+
+    <string name="register_text">Registro</string>
+    <string name="editar_text">Editar</string>
+    <string name="restore_link">Recupero</string>
+    <string name="login_prompt">email</string>
+    <string name="password_prompt">password</string>
+    <string name="password_recovery_page_name">Le estaremos enviando un email con su nueva clave. Verifique su email para más instrucciones.</string>
+    <string name="remember_login_text">Recordarme</string>
+
+    <string name="ownerId_field_prompt">OwnerId:</string>
+    <string name="email_field_prompt">Email</string>
+    <string name="objectId_field_prompt">ObjectId:</string>
+    <string name="created_field_prompt">Created:</string>
+    <string name="password_field_prompt">Password</string>
+    <string name="updated_field_prompt">Updated:</string>
+    <string name="name_field_prompt">Nombre y Apellido</string>
+    <string name="dni_field_prompt">DNI</string>
+    <string name="file_field_prompt">File:</string>
+    <string name="registration_success">Registro exitoso!</string>
+    <string name="registration_error">Error de registro!</string>
+
+
+    <string name="restore_password_page_name">Recuperación de Password</string>
+    <string name="password_recovered_message">Le estaremos enviando un email con su nueva clave. Verifique su email para más instrucciones.</string>
+    <string name="registration_page_name">Registro</string>
+    <string name="registration_success_message">Gracias por registrarse en Patient Check.</string>
+    <string name="edit_success_message">Edición exitosa!</string>
+    <string name="no_camera">Perdón! Su equipo no tiene cámara</string>
+
+
+    <!-- __________ change this credentials and configure your applications __________ -->
+    <!-- You also need to set android debug key in Facebook and Google apps -->
+
+    <!-- for Facebook -->
+    <!-- https://developers.facebook.com/docs/facebook-login/android -->
+    <string name="facebook_app_id"></string>
+    <string name="fb_login_protocol_scheme">fb...</string>
+
+    <!-- for Google -->
+    <!-- https://developers.google.com/identity/sign-in/android/start-integrating -->
+    <string name="gp_WebApp_ClientId"></string>
+    <string name="gp_WebApp_ClientSecret"></string>
+    <string name="title_location_permission">Ubicación</string>
+    <string name="text_location_permission">Se requiere el servicio de ubicación</string>
+    <string name="ok">OK</string>
+    <string name="check_text">Sacar fotos paciente</string>
+    <string name="restore_password">Recuperar</string>
+    <string name="btn_Recuperar">Recuperar password</string>
+    <string name="warning_icon_description">warning icon</string>
+    <string name="mensageEnviado">Mensaje enviado. Espere recibir las fotos del paciente.</string>
+    <string name="mensageRecibido">Mensaje Recibido del Doctor.</string>
+    <string name="sacar_fotos">Sacar fotos</string>
+    <string name="mensagePaciente">Fotos del Paciente al Doc enviadas.</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="device_unsuccess">No se logró el registro de Mensajería de su celular</string>
+    <string name="error_database">Error en la base de datos de registro.</string>
+    <string name="error_doctor">Error buscando al doctor.</string>
+    <string name="error_peerId">Error buscando al paciente. (PeerId = Null)</string>
+    <string name="error_paciente">Error buscando al paciente. (DeviceId = Null)</string>
+    <string name="error_mensaje">Error en la recepción del ID en el mensaje.</string>
+    <string name="device_success">Notificaciones OK</string>
+    <string name="btn_Bluetooth">Bluetooth</string>
+    <string name="btn_Alertas">Alertas</string>
+    <string name="btn_Ubicacion">Ubicación</string>
+    <string name="Bluetooth" />
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_message">Su dispositivo no cuenta con la tecnología Bluetooth. No es compatible con este servicio.</string>
+    <string name="alertas_title">Alertas</string>
+    <string name="alertas_message">Las Notificaciones están apagadas y son requeridas. Cambie la configuración y vuelva a ejecutar la aplicación.</string>
+    <string name="button_ok">OK</string>
+
+
+    <!-- __________ end __________ -->
+
+
+</resources>

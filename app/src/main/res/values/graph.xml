@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="graph_spring_constant" format="float" type="dimen">0.1</item>
+    <item name="graph_coulomb_constant" format="float" type="dimen">100.0</item>
+    <item name="graph_damping_coefficient" format="float" type="dimen">0.8</item>
+    <item name="graph_node_mass" format="float" type="dimen">20</item>
+    <item name="graph_time_step" format="float" type="dimen">1.5</item>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgrounds"
+    tools:context="LoginResult">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Patient Check"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/editText_bkndlsBackendlessUserInfo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/botonesVerdes"
+            android:inputType="none"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/editText_BackendlessUserInfo"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_bkndlsBackendlessLogout"
+            android:text="@string/btn_LogoutBackendless"
+            android:layout_width="250dp"
+            android:layout_marginTop="25dp"
+            android:layout_height="48dp"
+            android:textColor="@color/white"
+            android:enabled="true"
+            android:background="@color/backgrounds"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/button_bkndlsBackendlessEdit"
+            android:text="@string/btn_EditBackendless"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:enabled="true"
+            android:background="@color/backgrounds"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/continueButton"
+            android:text="@string/btn_continue"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:enabled="false"
+            android:background="@color/backgrounds"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
